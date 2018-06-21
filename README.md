@@ -1,6 +1,45 @@
 # zipcodeinfo
 Node Module to provide the details for the Global Countries and their Zip Codes
 
+
+
+## Pre-requisites
+
+Use the package manager section to install nodejs in different operating systems
+
+https://nodejs.org/en/download/package-manager/
+
+### Windows
+```bash
+> choco install nodejs
+```
+
+### Mac
+```bash
+$ brew install node
+```
+
+## Install English Dictionary Global
+```bash
+npm install zipcodeinfo -g
+```
+
+## Install English Dictionary Local
+```bash
+npm install zipcodeinfo
+```
+
+## Usage
+
+Change Directory to the node_modules if you installed globally
+```bash
+cd /usr/local/lib/node_modules
+```
+
+> Note: For Windows
+> Windows XP - %USERPROFILE%\Application Data\npm\node_modules
+> Windows 7, 8 and 10 - %AppData%\npm\node_modules
+
 ## Usage
 
 ```bash
